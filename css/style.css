@@ -1,0 +1,51 @@
+body{
+    margin: 0; /*removes any default margin applied by the browser*/
+    padding: 0; /*removes any default padding applied by the browser*/
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: 1.2em; /*relative font size*/
+    line-height: 40px;
+    height: 40px; /*sets individual height of list items - will make nav bar stand a bit higher*/
+    display: inline-block; /*makes the nav items appear next to each other - so will have a horizontal navbar*/
+    margin: 2.5%;
+}
+
+nav a {
+    text-decoration: none; /*turns off the default underline for the links*/
+    color: #fff;
+    display: block;
+}
+
+nav a:hover { /*will make something happen when we hover over the links*/
+    background-color: #fff;
+    color: #4a4a4f;
+}
+
+.card {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.card a {
+    text-align: center;
+}
+
+img {
+    width: 100%; /*this is a relative width. It's relative to the width of the container that it's in. Our card - the container - is 20% of the screen width, so our image will be 100% of that width not 100% of the width of the screen*/
+    height: 180px;
+}
+
+h1 { /*align the "Stream One" heading to the center*/
+    text-align: center;
+}
